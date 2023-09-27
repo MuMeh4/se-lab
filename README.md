@@ -30,7 +30,7 @@ As this is a really simple project, you can use the command-line build tools or 
 
 The project represents an alpha version of a spaceship.
 
-- The ship (`SpaceShip` interface) can fire one or more lasers or torpedos.
+- The ship (`SpaceShip` interface) can fire one or more lasers or torpedos. It's neat.git push
 - We have only one spaceship as of now (`GT4500`).
 - Currently two firing modes (`FiringMode`) are supported: firing only one or all instances of a given weapon type.
 - Lasers are not yet implemented, but the code for torpedo stores are ready (`TorpedoStore`).
@@ -38,5 +38,3 @@ The project represents an alpha version of a spaceship.
 - There are currently two tests (`GT4500Test`), but be aware that they are not proper unit tests, as they do not isolate the dependencies of the tested class.
 
 The code can be built, but due to missing features one of the tests fails. The first execercise will be to fix this.
-
-I fixed it
